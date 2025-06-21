@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="zh-cn">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>YI音乐环境</title>
+  <link rel="stylesheet" type="text/css" href="./css/APlayer.min.css">
+  <link rel="stylesheet" type="text/css" href="./main.css">
+
+
+  <meta name="apple-mobile-web-app-title" content="音乐">
+
+ <link rel="icon" type="image/x-icon" href="./music/title.ico">
+  <link rel="apple-touch-icon" href="./music/title.ico">
+
+  <meta name="description" content="Yi的音乐厅">
+  <link rel="manifest" href="/manifest.json">
+  <script>
+    var _hmt = _hmt || [];
+    (function() {
+      var hm = document.createElement("script");
+      hm.src = "https://hm.baidu.com/hm.js?321add3ca0f106525da5526375001161";
+      var s = document.getElementsByTagName("script")[0]; 
+      s.parentNode.insertBefore(hm, s);
+    })();
+  </script>    
+</head>
+<body>
+<div id="music_bg"></div>
+<div id="heoMusic-page">
+</div>
+<script>
+  var userId = "13835563112";
+  var userServer = "netease";
+  var userType = "playlist";
+      var localMusic = [{
+      name: '下辈子还要找你们当爸妈(儿童版）',
+      artist: '分享者最美',
+       url: '/music/下辈子还要找你们当爸妈.mp3',
+      cover: '/music/i.jpg',
+       lrc: '/music/下辈子还要找你们当爸妈.lrc'
+ },
+   {
+    name: '孤勇者',
+      artist: '懿动画主题曲',
+       url: '/music/孤勇者.mp3',
+      cover: '/music/Yi.jpg',
+       lrc: '/music/孤勇者.lrc'
+   },
+   {
+    name: '听我说谢谢你',
+      artist: '馨是个好学宝',
+       url: '/music/听我说谢谢你.mp3',
+      cover: '/music/i.jpg',
+       lrc: '/music/听我说谢谢你.lrc'
+  },
+   {
+    name: '少年',
+      artist: '懿',
+       url: '/music/少年.mp3',
+      cover: '/music/Yi.jpg',
+       lrc: '/music/少年.lrc'
+ },
+   {
+    name: '你笑起来真好看',
+      artist: '馨',
+       url: '/music/你笑起来真好看.mp3',
+      cover: '/music/i.jpg',
+       lrc: '/music/你笑起来真好看.lrc'
+   },
+   {
+    name: '青春的颜色',
+     artist: '懿',
+       url: '/music/青春的颜色.mp3',
+    cover: '/music/Yi.jpg',
+       lrc: '/music/青春的颜色.lrc'
+     }
+   ];
+// var remoteMusic = "./musiclist.json"
+</script>
+<script src="./js/APlayer.min.js"></script>
+<script async data-pjax src="./js/main.js"></script>
+</body>
+</html>
